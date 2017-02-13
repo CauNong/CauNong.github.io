@@ -1,36 +1,26 @@
-language: node_js
+language: node_js  #è®¾ç½®è¯­è¨€
+
+node_js: stable  #è®¾ç½®ç›¸åº”çš„ç‰ˆæœ¬
+
+install:
+  - npm install  #å®‰è£…hexoåŠæ’ä»¶
+
+script:
+  - hexo cl  #æ¸…é™¤
+  - hexo g  #ç”Ÿæˆ
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "caunong"  #ä¿®æ”¹name
+  - git config user.email "caunong"  #ä¿®æ”¹email
+  - git add .
+  - git commit -m "update"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKENæ˜¯åœ¨Travisä¸­é…ç½®tokençš„åç§°
 
 branches:
   only:
-  - dev
-
-
-before_install:
-- export TZ='Asia/Shanghai'  # ÉèÖÃÊ±Çø
-- npm install -g hexo
-- npm install -g hexo-cli
-before_script:
-# ÉèÖÃgithubÕË»§ĞÅÏ¢
-- cp .travis/ssh_config ~/.ssh/config
-- git config --global user.name "caunong" #ÉèÖÃgithubÓÃ»§Ãû
-- git config --global user.email caugmi@live.com #ÉèÖÃgithubÓÃ»§ÓÊÏä
-- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-# github²Ö¿â²Ù×÷
-# °²×°ÒÀÀµ×é¼ş
-install:
-- npm install
-# Ö´ĞĞµÄÃüÁî
-script:
-- hexo clean
-- hexo generate
-# Ö´ĞĞµÄ³É¹¦ºóÖ´ĞĞ 
-after_success:
-- hexo deploy
-
-cache:
-  directories:
-    - node_modules
-
+    - dev  #åªç›‘æµ‹hexoåˆ†æ”¯ï¼Œhexoæ˜¯æˆ‘çš„åˆ†æ”¯çš„åç§°ï¼Œå¯æ ¹æ®è‡ªå·±æƒ…å†µè®¾ç½®
 env:
  global:
-   - GH_REF: github.com/caunong/caunong.github.io.git
+   - GH_REF: github.com/caunong/caunong.github.io.git  #è®¾ç½®GH_REFï¼Œæ³¨æ„æ›´æ”¹yourname
