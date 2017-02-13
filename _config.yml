@@ -5,13 +5,9 @@
 # Site
 title: 独
 subtitle:
-<<<<<<< HEAD
 description:
-author: Cau Nong
-=======
+author: 蔡小弄
 description: "一个苦学编程不得要领的办公室小文员"
-author: "蔡小弄"
->>>>>>> 38ebabf740e37b878e3a10cb84003a8c56c567fc
 language: zh-Hans
 zh-Hans:
 
