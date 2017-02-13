@@ -3,9 +3,7 @@ language: node_js
 branches:
   only:
   - dev  # 设置自动化部署的源码分支
-env:
-  global:
-    secure: DoGu69AjfP1D2SHzurZlJ3fRtgBlxrgPURANzfXsxjrr5MBDJ5FMC5VQdLb1JlKVUkFJyuebkdgrXhCYbyYN0BbB8u2Fu1LILGfAkl34qXc4Z7M/lnZVglBgTHdKPIGZXgPACcreMTrAy8bpAi+Lo4LE9pvmyZL0UIke/U0+ekl2rrh6j3g8qRE/tnkwKUArSaNe8/UjhZD9kikIht9lIxcGLvZbc2kitc15BtBEjEAqH5lPV6Ti0HJBewNbkJe0SGxIkwJiCQj7J/gaPLmQ4uzcbjr8mPyk/0s5Akxq8kPBeD+XHyT0BPUAhfKB6qxAAmfop41XTvzH7so/yY+2/a7oTZmr3ha5VO63/DFkVc6gORg7Djmt3KyOEM8S5CNGHzX3JDZFKT5FTN51cQxHlvj4tjsPL72+DlbaGDqnEM7oX5ED0n4plC/uzPzf6CG+gRkffYwh5zi3PJM1dLEouxFoZJJSvjA3KfQG5FCHw+H1aW9ksLJL0BTebwVqlSquo0wULaF/CCYrmibpMPxh6626F6fM/ZTLHq7EVOsoUdNgSXsB0ddlTCukDTN16fCsDWypJdhc0oWaIWvm+303gkRxnkCMRimcAHM6qg9HRwuSVc5TtJZUOu4s597eSEQtYoKjVWBtlH1RAIoIDc24jA6tG2HcfDdRpSqffHDOueE=
+
 
 before_install:
 - export TZ='Asia/Shanghai'  # 设置时区
@@ -17,7 +15,7 @@ before_script:
 - git config --global user.name "caunong" #设置github用户名
 - git config --global user.email caunong@live.com #设置github用户邮箱
 # github仓库操作
-- sed -i'' "s~git@github.com:caunong/caunong.github.io.git~https://${REPO_TOKEN}:x-oauth-basic@github.com/caunong/caunong.github.io.git~" _config.yml
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # 安装依赖组件
 install:
 - npm install
@@ -28,3 +26,6 @@ script:
 # 执行的成功后执行 
 after_success:
 - hexo deploy
+env:
+ global:
+   - GH_REF: github.com/caunong/caunong.github.io.git
