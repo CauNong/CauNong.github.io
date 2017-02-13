@@ -13,7 +13,7 @@ before_script:
 # 设置github账户信息
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "caunong" #设置github用户名
-- git config --global user.email caunong@live.com #设置github用户邮箱
+- git config --global user.email caugmi@live.com #设置github用户邮箱
 # github仓库操作
 - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # 安装依赖组件
@@ -29,3 +29,7 @@ after_success:
 env:
  global:
    - GH_REF: github.com/caunong/caunong.github.io.git
+
+cache:
+  directories:
+    - node_modules
