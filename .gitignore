@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+<<<<<<< HEAD
+node_modules/
+=======
+>>>>>>> 38ebabf740e37b878e3a10cb84003a8c56c567fc
+public/
+.deploy*/
