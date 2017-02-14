@@ -1,56 +1,56 @@
----
-title: about git
+ï»¿---
+title: å…³äºGit
 date: 2017-02-14 15:08:16
 tags: git
-categories: ¼¼Êõ
+categories: æŠ€æœ¯
 ---
-## Ò»¸öĞÂÊÖµÄÕÛÌÚÖ®Â·
+## ä¸€ä¸ªæ–°æ‰‹çš„æŠ˜è…¾ä¹‹è·¯
 
-### git´î½¨¡£
+### gitæ­å»ºã€‚
 
-×î½üĞÄÑªÀ´³±£¬Ïë´î½¨Ò»¸ögithub page ²©¿Í£¬È»ºó¸÷ÖÖgoogle ¡£¡£¡£àÅ£¬ÆäÊµÎÒÓÃµÄbaidu¡£¡£¡£
+æœ€è¿‘å¿ƒè¡€æ¥æ½®ï¼Œæƒ³æ­å»ºä¸€ä¸ªgithub page åšå®¢ï¼Œç„¶åå„ç§google ã€‚ã€‚ã€‚å—¯ï¼Œå…¶å®æˆ‘ç”¨çš„baiduã€‚ã€‚ã€‚
 
-1. ÏÂÔØ°²×°Git ...  
-windows ÏÂÃæÓÃmsysgit(×Ô¼º°Ù¶È)¾ÍºÃÀ²¡£
-linux ÂïÖ±½ÓÃüÁîĞĞ°²×°£¬ÒÔubuntuÎªÀı£º
+1. ä¸‹è½½å®‰è£…Git ...  
+windows ä¸‹é¢ç”¨msysgit(è‡ªå·±ç™¾åº¦)å°±å¥½å•¦ã€‚
+linux å˜›ç›´æ¥å‘½ä»¤è¡Œå®‰è£…ï¼Œä»¥ubuntuä¸ºä¾‹ï¼š
 > sudo apt-get install git
 <!--more-->
-2. ÅäÖÃgit
-´ò¿ªgit bush:
+2. é…ç½®git
+æ‰“å¼€git bush:
 > git config --global user.name "Your Name"  
 > git config --global user.email "email@example.com"
 
-3. ¿ªÊ¼Ê¹ÓÃ  
+3. å¼€å§‹ä½¿ç”¨  
 > git init  
-> git checkout -b dev   # ´´½¨dev·ÖÖ§£¬²¢ÇĞ»»µ½dev  
+> git checkout -b dev   # åˆ›å»ºdevåˆ†æ”¯ï¼Œå¹¶åˆ‡æ¢åˆ°dev  
 > git remote add origin git@github.com/yourname/youname.github.io.git  
 > git add .  
-> git commit -m "ÄãÏëËµÉ¶¾ÍËµÉ¶£¬±¾´ÎÌá½»µÄ×¢ÊÍ"  
-> git push origin -u dev # Ìá½»µ½Ô¶³Ì²Ö¿âµÄdev·ÖÖ§  
+> git commit -m "ä½ æƒ³è¯´å•¥å°±è¯´å•¥ï¼Œæœ¬æ¬¡æäº¤çš„æ³¨é‡Š"  
+> git push origin -u dev # æäº¤åˆ°è¿œç¨‹ä»“åº“çš„devåˆ†æ”¯  
 
-4. ´ó¿Ó
+4. å¤§å‘
 
- - ¸÷ÖÖÎÊÌâµÄ½â¾ö°ì·¨£¨²ËÄñ×ÜÊÇÏë·½Éè·¨ÍµÀÁ¶ø²»ÊÇ·­½Ì³Ì£¬àÅ£¬¾Í½´£¡£©,ÊÊÓÃÔ¶¶ËÒÑÓĞ²Ö¿âµÄÇé¿ö  
-> git clone https://github.com/yourname.git Blog # ´Ógithub ¿ËÂ¡¿âµ½±¾µØBlog ÎÄ¼ş¼Ğ  
+ - å„ç§é—®é¢˜çš„è§£å†³åŠæ³•ï¼ˆèœé¸Ÿæ€»æ˜¯æƒ³æ–¹è®¾æ³•å·æ‡’è€Œä¸æ˜¯ç¿»æ•™ç¨‹ï¼Œå—¯ï¼Œå°±é…±ï¼ï¼‰,é€‚ç”¨è¿œç«¯å·²æœ‰ä»“åº“çš„æƒ…å†µ  
+> git clone https://github.com/yourname.git Blog # ä»github å…‹éš†åº“åˆ°æœ¬åœ°Blog æ–‡ä»¶å¤¹  
 
-È»ºó¾Í¿ÉÒÔÓä¿ìµÄ£º  
+ç„¶åå°±å¯ä»¥æ„‰å¿«çš„ï¼š  
 > git add .  
-> git commit -m "ÄãÏëËµÉ¶¾ÍËµÉ¶£¬±¾´ÎÌá½»µÄ×¢ÊÍ"  
-> git push origin -u dev # Ìá½»µ½Ô¶³Ì²Ö¿âµÄdev·ÖÖ§  
+> git commit -m "ä½ æƒ³è¯´å•¥å°±è¯´å•¥ï¼Œæœ¬æ¬¡æäº¤çš„æ³¨é‡Š"  
+> git push origin -u dev # æäº¤åˆ°è¿œç¨‹ä»“åº“çš„devåˆ†æ”¯  
 
- - °ÑĞèÌá½»µÄ¶«Î÷¿½±´µ½BlogÎÄ¼ş¼Ğ£¬Èç¹ûÊÇhexo²¿Êğ£¬ÓĞµÚÈı·½Ö÷ÌâµÄ£¬½«µÚÈı·½Ö÷ÌâÀïÃæµÄ.gitÎÄ¼ş¼Ğ£¬.gitignoreÉ¾³ı£¬È»ºóÔÙÌá½»
+ - æŠŠéœ€æäº¤çš„ä¸œè¥¿æ‹·è´åˆ°Blogæ–‡ä»¶å¤¹ï¼Œå¦‚æœæ˜¯hexoéƒ¨ç½²ï¼Œæœ‰ç¬¬ä¸‰æ–¹ä¸»é¢˜çš„ï¼Œå°†ç¬¬ä¸‰æ–¹ä¸»é¢˜é‡Œé¢çš„.gitæ–‡ä»¶å¤¹ï¼Œ.gitignoreåˆ é™¤ï¼Œç„¶åå†æäº¤
 
-### ²¿Êğµ½ coding ºÍgithub
-²Î¿¼£º
+### éƒ¨ç½²åˆ° coding å’Œgithub
+å‚è€ƒï¼š
 > http://www.jianshu.com/p/7ad9d3cd4d6e
 
-### travis CI ³ÖĞø¼¯³É
+### travis CI æŒç»­é›†æˆ
   
-   ²Î¿¼£º  
+   å‚è€ƒï¼š  
 > https://segmentfault.com/a/1190000005622331  
 > http://blog.csdn.net/woblog/article/details/51319364
 
- - ¼ÓÃÜÊ±ºòÇëÔÚ**linux**ÏÂ½øĞĞ£¬windowsÓĞ¸÷ÖÖ¿ÓµÈÄãÌø£¡
+ - åŠ å¯†æ—¶å€™è¯·åœ¨**linux**ä¸‹è¿›è¡Œï¼Œwindowsæœ‰å„ç§å‘ç­‰ä½ è·³ï¼
 
-²»ÏëÔÙÇÃ×ÖÀ²£¬ÎÒ¾ÍÊÇÀÁ£¬ÄãÀ´´òÎÒ°¡£¡
+ä¸æƒ³å†æ•²å­—å•¦ï¼Œæˆ‘å°±æ˜¯æ‡’ï¼Œä½ æ¥æ‰“æˆ‘å•Šï¼
 
