@@ -42,3 +42,7 @@ script:
 - hexo clean 
 - hexo g
 - hexo d
+
+cache:
+  directories:
+    - node_modules
