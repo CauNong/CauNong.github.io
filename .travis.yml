@@ -1,26 +1,45 @@
-language: node_js  #设置语言
+language: node_js
+node_js: stable
 
-node_js: stable  #设置相应的版本
-
-install:
-  - npm install  #安装hexo及插件
-
-script:
-  - hexo cl  #清除
-  - hexo g  #生成
-
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "caunong"  #修改name
-  - git config user.email "caugmi@live.com"  #修改email
-  - git add .
-  - git commit -m "update"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
-
+#after_script:
+#- cd ./public
+#- git init
+#- git config user.name "caunong"
+#- git config user.email "caugmi@live.com"
+#- git add .
+#- git commit -m "update"
+#- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
   only:
-    - dev  #只监测hexo分支，hexo是我的分支的名称，可根据自己情况设置
-env:
- global:
-   - GH_REF: github.com/caunong/caunong.github.io.git  #设置GH_REF，注意更改yourname
+  - dev
+#env:
+#  global:
+ # - GH_REF: github.com/caunong/caunong.github.io.git
+
+before_install:
+- export TZ='Asia/Shanghai'  # 设置时区
+- npm install -g hexo
+- npm install -g hexo-cli
+# 将xxxxxxxxxxx替换上面生成的内容
+# 这里面的文件路径可根据自己的情况进行修改
+# 解密id_rsa_blog.enc 输出到.ssh/文件夹下，命名为id_rsa
+- openssl aes-256-cbc -K $encrypted_ccbf3828da0e_key -iv $encrypted_ccbf3828da0e_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+# 设置id_rsa文件权限
+- chmod 600 ~/.ssh/id_rsa
+# 添加ssh密钥
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+# 添加ssh配置文件
+- cp .travis/ssh_config ~/.ssh/config
+# 设置github账户信息
+- git config --global user.name "caunong" #设置github用户名
+- git config --global user.email caugmi@live.com #设置github用户邮箱
+# 安装依赖组件
+install:
+- npm install
+# 执行的命令
+script:
+- hexo clean 
+- hexo g
+- hexo d
