@@ -1,20 +1,9 @@
 language: node_js
 node_js: stable
 
-#after_script:
-#- cd ./public
-#- git init
-#- git config user.name "caunong"
-#- git config user.email "caugmi@live.com"
-#- git add .
-#- git commit -m "update"
-#- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
   only:
   - dev
-#env:
-#  global:
- # - GH_REF: github.com/caunong/caunong.github.io.git
 
 before_install:
 - export TZ='Asia/Shanghai'  # 设置时区
@@ -23,8 +12,7 @@ before_install:
 # 将xxxxxxxxxxx替换上面生成的内容
 # 这里面的文件路径可根据自己的情况进行修改
 # 解密id_rsa_blog.enc 输出到.ssh/文件夹下，命名为id_rsa
-- openssl aes-256-cbc -K $encrypted_ccbf3828da0e_key -iv $encrypted_ccbf3828da0e_iv
-  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- openssl aes-256-cbc -K $encrypted_ccbf3828da0e_key -iv $encrypted_ccbf3828da0e_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 # 设置id_rsa文件权限
 - chmod 600 ~/.ssh/id_rsa
 # 添加ssh密钥
