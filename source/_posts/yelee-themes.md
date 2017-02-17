@@ -3,6 +3,8 @@ title: yelee主题设置相关
 date: 2017-02-08 19:42:36
 tags: [yelee,themes] 
 categories: 技术
+toc: true
+comments: true
 ---
 
 ## 新手的折腾之路

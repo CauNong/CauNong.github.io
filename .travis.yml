@@ -20,6 +20,8 @@ before_install:
 - export TZ='Asia/Shanghai'  # 设置时区
 - npm install -g hexo
 - npm install -g hexo-cli
+- npm install hexo-renderer-jade --save
+- npm install hexo-renderer-sass --save
 # 将xxxxxxxxxxx替换上面生成的内容
 # 这里面的文件路径可根据自己的情况进行修改
 # 解密id_rsa_blog.enc 输出到.ssh/文件夹下，命名为id_rsa

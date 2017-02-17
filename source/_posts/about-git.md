@@ -3,6 +3,7 @@ title: 关于Git
 date: 2017-02-14 15:08:16
 tags: git
 categories: 技术
+toc: true
 ---
 ## 一个新手的折腾之路
 

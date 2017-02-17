@@ -3,6 +3,8 @@ title: hexo博客换电脑之后配置
 date: 2017-02-08 19:37:04
 tags: hexo
 categories: 技术
+toc: true
+comments: true
 ---
 
 

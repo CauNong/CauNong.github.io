@@ -3,6 +3,8 @@ title: markdown入门
 date: 2017-02-08 19:54:54
 tags: markdown
 categories: 技术
+toc: true
+comments: true
 ---
 
 ## 请叫我Blog狂人~
