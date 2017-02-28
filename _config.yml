@@ -12,7 +12,7 @@ zh-Hans:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://allalone.cn
+url: http://alai.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
