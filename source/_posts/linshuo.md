@@ -1,5 +1,5 @@
 ---
-title: lin shuo
+title: 林说
 date: 2017-03-01 15:06:25
 tags: 随笔
 categories: 随笔
