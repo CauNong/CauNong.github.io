@@ -4,12 +4,15 @@ date: 2017-03-03 10:13:24
 tags: [设置,文件设置]
 categories: UWP开发
 ---
+**转自[姜子瑜](http://www.cnblogs.com/ldzhangyx/p/6235436.html)**  
 
-数据有两个基本的分类，应用数据和用户数据，而用户数据则为由用户拥有的数据，如文档，音乐或电子邮件等，下面将大致的介绍一下应用数据的基本操作。  
+### 数据有两个基本的分类，应用数据和用户数据。  
 
-应用数据：应用数据包含APP的状态信息（如运行时状态，用户设置等），包括设置和文件，应用数据在应用程序安装时有自己的存储区域，而在卸载时会清空  
+**用户数据**为由用户拥有的数据，如文档，音乐或电子邮件等，下面将大致的介绍一下应用数据的基本操作。  
 
-设置：存储用户首选项和应用程序状态,可存储多种数据类型 <!--more-->  
+**应用数据：**应用数据包含APP的状态信息（如运行时状态，用户设置等），包括设置和文件，应用数据在应用程序安装时有自己的存储区域，而在卸载时会清空  
+
+**设置：**存储用户首选项和应用程序状态,可存储多种数据类型 <!--more-->  
 >UInt8、Int16、UInt16、Int32、UInt32、Int64、UInt64、Single、Double  
 >Boolean  
 >Char16 和 String  
@@ -41,7 +44,7 @@ ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列
 临时文件：ApplicationData.Current.TemporaryFolder  
    
 
-###设置的基本操作
+### 设置的基本操作
 
 设置是一个ApplicationDataContainer类型的对象，关于ApplicationDataContainer类的介绍请参照官方文档 ，这里只是介绍一些简单的操作。
 
@@ -63,7 +66,7 @@ ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列
 
 这样就可以实现设置项的复合操作，具体操作参照：[MSDN](https://msdn.microsoft.com/zh-cn/library/windows/apps/xaml/windows.storage.applicationdatacontainer.aspx)
 
-###文件的基本操作
+### 文件的基本操作
 
 与文件操作相关的两个基本的类是StorageFile和StorageFolder
 
@@ -79,4 +82,3 @@ ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列
 
 除了对数据的操作之外，你也可以对数据进行版本控制：使用Application.Version属性和ApplicationData.SetVersionAsyncthe new text here
 
-**转自[姜子瑜](http://www.cnblogs.com/ldzhangyx/p/6235436.html)**
