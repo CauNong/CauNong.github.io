@@ -3,6 +3,7 @@ title: UWP应用设置和文件设置：科普
 date: 2017-03-03 10:13:24
 tags: [设置,文件设置]
 categories: UWP开发
+toc: true
 ---
 **转自[姜子瑜](http://www.cnblogs.com/ldzhangyx/p/6235436.html)**  
 
@@ -51,18 +52,18 @@ ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列
    简单设置
 
     ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;//获取本地设置，你也可以获取漫游设置和临时设置，后面的操作都一样
-    localSettings.Values["theme"] = "Light";//在本地设置中添加一个设置项，类似字典赋值方式，theme是localSettings里面的key，而"Light"是值，可以设置的类型在上面已经列出
-    localSettings.Values.Remove("theme");//删除设置项
-    string theme = localSettings.Values["theme"] as string;//读取设置项
+		localSettings.Values["theme"] = "Light";//在本地设置中添加一个设置项，类似字典赋值方式，theme是localSettings里面的key，而"Light"是值，可以设置的类型在上面已经列出
+		localSettings.Values.Remove("theme");//删除设置项
+		string theme = localSettings.Values["theme"] as string;//读取设置项
 
-    ApplicationDataCompositeValue simpleSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
-    simpleSettings["theme"] = "Light";
-    simpleSettings["FontFamily"] = "微软雅黑";
-    localSettings.Values["SimpleSettings"] = simpleSettings;//将复合设置项添加到上面获取的本地设置中
+		ApplicationDataCompositeValue simpleSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
+		simpleSettings["theme"] = "Light";
+		simpleSettings["FontFamily"] = "微软雅黑";
+		localSettings.Values["SimpleSettings"] = simpleSettings;//将复合设置项添加到上面获取的本地设置中
 
-    ApplicationDataCompositeValue advanceSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
-    advanceSettings["IsSync"] = false;
-    localSettings.Values["AdvanceSettings"] = advanceSettings;
+		ApplicationDataCompositeValue advanceSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
+		advanceSettings["IsSync"] = false;
+		localSettings.Values["AdvanceSettings"] = advanceSettings;
 
 这样就可以实现设置项的复合操作，具体操作参照：[MSDN](https://msdn.microsoft.com/zh-cn/library/windows/apps/xaml/windows.storage.applicationdatacontainer.aspx)
 
@@ -72,11 +73,11 @@ ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列
 
 
     StorageFolder folder = ApplicationData.Current.LocalFolder;//获得本地文件夹
-    StorageFile file = await folder.CreateFileAsync("first.txt", CreationCollisionOption.OpenIfExists);//创建文件
-    await FileIO.WriteTextAsync(file, "文本的内容");//使用FileIO将字符串写入文件
+		StorageFile file = await folder.CreateFileAsync("first.txt", CreationCollisionOption.OpenIfExists);//创建文件
+		await FileIO.WriteTextAsync(file, "文本的内容");//使用FileIO将字符串写入文件
 
-    StorageFile fileOpen = folder.GetFileAsync("first.txt");
-    string content = await FileIO.ReadTextAsync(fileOpen);//读取文本    
+		StorageFile fileOpen = folder.GetFileAsync("first.txt");
+		string content = await FileIO.ReadTextAsync(fileOpen);//读取文本    
 
 以上操作稍作修改就可应用于漫游数据和临时数据，漫游数据可以实现多设备间的数据同步，但是数据同步有一定的条件。临时数据类似于缓存，可用于保存一些缓存数据，如微博里的图片缓存等，系统维护时会自动删除，或者可以随时手动删除。
 
