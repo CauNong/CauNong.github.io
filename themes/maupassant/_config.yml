@@ -38,10 +38,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_comments
   - links
 
-# SubNav
-subnav:
-rss: "/atom.xml"
-
 links:
   - title: Tumblr
     url: http://tumblr.com/
