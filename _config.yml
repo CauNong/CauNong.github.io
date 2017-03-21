@@ -68,7 +68,15 @@ archive_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-plugin: hexo-generator-feed
+Plugins:
+- hexo-generator-feed
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 theme: maupassant
 
 # Deployment
