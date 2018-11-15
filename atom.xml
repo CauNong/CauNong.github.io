@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>独　</title>
+  
+  <subtitle>折腾致死——方休</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://alai.me/"/>
+  <updated>2018-11-15T12:32:53.681Z</updated>
+  <id>http://alai.me/</id>
+  
+  <author>
+    <name>蔡小弄</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>那年</title>
+    <link href="http://alai.me/2018/01/19/nanian/"/>
+    <id>http://alai.me/2018/01/19/nanian/</id>
+    <published>2018-01-19T12:06:42.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><p>“我终于还是成了我讨厌的那种人”，在静谥的空气里，他低着头，轻轻地说。<br>你静静听，不发一语，亦无法安慰，这是他的现在，不是你的。窗外路灯忽明忽暗，他的脸时显时隐，你 伸手出去，却停在空中。他无法被触摸你又缩回手来。<br>“我们还是分了彼此”，你想，可你不说，任时间冲淡这一切。  <a id="more"></a><br>你与他一样名，一张脸，一具躯壳。然而还是分离了，你旁观他，旁观自己，微笑哭泣，欢喜愤怒，你期待着有一天他彻底离开，不相见，做纯粹的你。你期待，这一天，如同幼时期待一瓶甜甜的可乐，包装简陋，配方粗糙，可你捧着它，似珍宝一般。<br>可你会忘记他吗？<br>你是他，他亦是你。<br>不离弃。<br>如影随行，无处可逃。<br>你终于还是变成了你讨厌的那种人。  </p><h1 id="二"><a href="#二" class="headerlink" title="二"></a>二</h1><p>一个月，时间流水般，穿过指缝，眨眼不见。 南方小镇的阳光明媚，可依然冷，你还是怀念小县城的温暖。可回不去了，你再次错误地做了选择一无数个错误中的一个。 没关系了。<br>新的同事，许多是少言少语的，你也是。或许这工作适合你，少与人交往，大多时候都同冰冷的机器打交道，如你所愿。他不说话，静默地站立在那里，由你操纵，亦不抱怨，不反驳，没有借口。然而你最终 还是倦了，隐隐想起那个精灵般的女子，想起她并不精致的脸，在暗夜里莲花般盛开。接踵的画面ㄧ波波拍打你，你痛得想哭。<br>我们留不住美好，失去时候才想起回头，可它已渐行渐远。我们亦不懂珍惜眼下，过往了才后悔。你试着接受，快成功了。然而才刚开始，能持续多久呢。你不知亦不愿想，顺其自然吧。  </p><h1 id="三"><a href="#三" class="headerlink" title="三"></a>三</h1><p>院子里停满了小汽车、各式各样。你也期待拥有，可以载女子、孩童去远方。亦或驶向自己的路，遇见那 些绝美的风景，停留，观望，然后遗忘。没有什么值得留恋、记忆亦或珍惜。除了爱。爱是值得永远留存 并珍惜的东西。<br>然而你已经失去爱的能力了。<br>房间静得像一座坟墓，墓碑上刻着请勿打扰。你的墓志铭，亦或你的座右铭。就这般隔绝了与外界的联系。<br>在这冰冷且静谥的冬夜里，持久的温暖包裹你。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; title=&quot;一&quot;&gt;&lt;/a&gt;一&lt;/h1&gt;&lt;p&gt;“我终于还是成了我讨厌的那种人”，在静谥的空气里，他低着头，轻轻地说。&lt;br&gt;你静静听，不发一语，亦无法安慰，这是他的现在，不是你的。窗外路灯忽明忽暗，他的脸时显时隐，你 伸手出去，却停在空中。他无法被触摸你又缩回手来。&lt;br&gt;“我们还是分了彼此”，你想，可你不说，任时间冲淡这一切。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UWP应用设置和文件设置：科普</title>
+    <link href="http://alai.me/2017/03/03/UWP-setmanager/"/>
+    <id>http://alai.me/2017/03/03/UWP-setmanager/</id>
+    <published>2017-03-03T02:13:24.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>转自<a href="http://www.cnblogs.com/ldzhangyx/p/6235436.html" target="_blank" rel="noopener">姜子瑜</a></strong>  </p><h3 id="数据有两个基本的分类，应用数据和用户数据。"><a href="#数据有两个基本的分类，应用数据和用户数据。" class="headerlink" title="数据有两个基本的分类，应用数据和用户数据。"></a>数据有两个基本的分类，应用数据和用户数据。</h3><p><strong>用户数据</strong>为由用户拥有的数据，如文档，音乐或电子邮件等，下面将大致的介绍一下应用数据的基本操作。  </p><p><strong>应用数据：</strong>应用数据包含APP的状态信息（如运行时状态，用户设置等），包括设置和文件，应用数据在应用程序安装时有自己的存储区域，而在卸载时会清空  </p><p><strong>设置：</strong>存储用户首选项和应用程序状态,可存储多种数据类型 <a id="more"></a>  </p><blockquote><p>UInt8、Int16、UInt16、Int32、UInt32、Int64、UInt64、Single、Double<br>Boolean<br>Char16 和 String<br>DateTime 和 TimeSpan<br>GUID、Point、Size、Rect  </p></blockquote><p>ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列化的相关应用设置。使用复合设置可轻松处理相互依赖的设置的原子更新。系统会在并发访问和漫游时确保复合设置的完整性。复合设置针对少量数据进行了优化，如果将它们用于大型数据集，性能可能很差。<br>文件：使用文件存储二进制文件，或自定义的序列化类型  </p><p>上面提到过应用数据包括设置和文件  </p><p>而应用数据根据存储的性质又分为三类：  </p><p><strong>本地数据</strong><br><strong>漫游数据：</strong>用户可轻松地在多个设备之间保持应用的应用数据同步<br><strong>临时数据：</strong>临时应用数据存储类似于缓存<br>所以相应的就有本地设置和本地文件，漫游设置和漫游文件，临时设置和临时文件  </p><p>不同类型的设置和文件的API如下：</p><p>本地设置：ApplicationData.Current.LocalSettings<br>本地文件：ApplicationData.Current.LocalFolder<br>漫游设置：ApplicationData.Current.RoamingSettings<br>漫游文件：ApplicationData.Current.RoamingFolder<br>临时设置：ApplicationData.Current.TemporarySettings<br>临时文件：ApplicationData.Current.TemporaryFolder  </p><h3 id="设置的基本操作"><a href="#设置的基本操作" class="headerlink" title="设置的基本操作"></a>设置的基本操作</h3><p>设置是一个ApplicationDataContainer类型的对象，关于ApplicationDataContainer类的介绍请参照官方文档 ，这里只是介绍一些简单的操作。</p><p>   简单设置</p><pre><code>ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;//获取本地设置，你也可以获取漫游设置和临时设置，后面的操作都一样    localSettings.Values[&quot;theme&quot;] = &quot;Light&quot;;//在本地设置中添加一个设置项，类似字典赋值方式，theme是localSettings里面的key，而&quot;Light&quot;是值，可以设置的类型在上面已经列出    localSettings.Values.Remove(&quot;theme&quot;);//删除设置项    string theme = localSettings.Values[&quot;theme&quot;] as string;//读取设置项    ApplicationDataCompositeValue simpleSettings = new ApplicationDataCompositeValue();//创建简单设置的容器    simpleSettings[&quot;theme&quot;] = &quot;Light&quot;;    simpleSettings[&quot;FontFamily&quot;] = &quot;微软雅黑&quot;;    localSettings.Values[&quot;SimpleSettings&quot;] = simpleSettings;//将复合设置项添加到上面获取的本地设置中    ApplicationDataCompositeValue advanceSettings = new ApplicationDataCompositeValue();//创建简单设置的容器    advanceSettings[&quot;IsSync&quot;] = false;    localSettings.Values[&quot;AdvanceSettings&quot;] = advanceSettings;</code></pre><p>这样就可以实现设置项的复合操作，具体操作参照：<a href="https://msdn.microsoft.com/zh-cn/library/windows/apps/xaml/windows.storage.applicationdatacontainer.aspx" target="_blank" rel="noopener">MSDN</a></p><h3 id="文件的基本操作"><a href="#文件的基本操作" class="headerlink" title="文件的基本操作"></a>文件的基本操作</h3><p>与文件操作相关的两个基本的类是StorageFile和StorageFolder</p><pre><code>StorageFolder folder = ApplicationData.Current.LocalFolder;//获得本地文件夹    StorageFile file = await folder.CreateFileAsync(&quot;first.txt&quot;, CreationCollisionOption.OpenIfExists);//创建文件    await FileIO.WriteTextAsync(file, &quot;文本的内容&quot;);//使用FileIO将字符串写入文件    StorageFile fileOpen = folder.GetFileAsync(&quot;first.txt&quot;);    string content = await FileIO.ReadTextAsync(fileOpen);//读取文本    </code></pre><p>以上操作稍作修改就可应用于漫游数据和临时数据，漫游数据可以实现多设备间的数据同步，但是数据同步有一定的条件。临时数据类似于缓存，可用于保存一些缓存数据，如微博里的图片缓存等，系统维护时会自动删除，或者可以随时手动删除。</p><p>除了对数据的操作之外，你也可以对数据进行版本控制：使用Application.Version属性和ApplicationData.SetVersionAsyncthe new text here</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;转自&lt;a href=&quot;http://www.cnblogs.com/ldzhangyx/p/6235436.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;姜子瑜&lt;/a&gt;&lt;/strong&gt;  &lt;/p&gt;
+&lt;h3 id=&quot;数据有两个基本的分类，应用数据和用户数据。&quot;&gt;&lt;a href=&quot;#数据有两个基本的分类，应用数据和用户数据。&quot; class=&quot;headerlink&quot; title=&quot;数据有两个基本的分类，应用数据和用户数据。&quot;&gt;&lt;/a&gt;数据有两个基本的分类，应用数据和用户数据。&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;用户数据&lt;/strong&gt;为由用户拥有的数据，如文档，音乐或电子邮件等，下面将大致的介绍一下应用数据的基本操作。  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;应用数据：&lt;/strong&gt;应用数据包含APP的状态信息（如运行时状态，用户设置等），包括设置和文件，应用数据在应用程序安装时有自己的存储区域，而在卸载时会清空  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置：&lt;/strong&gt;存储用户首选项和应用程序状态,可存储多种数据类型
+    
+    </summary>
+    
+      <category term="UWP开发" scheme="http://alai.me/categories/UWP%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="设置" scheme="http://alai.me/tags/%E8%AE%BE%E7%BD%AE/"/>
+    
+      <category term="文件设置" scheme="http://alai.me/tags/%E6%96%87%E4%BB%B6%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旁观自己</title>
+    <link href="http://alai.me/2017/03/02/pangguan/"/>
+    <id>http://alai.me/2017/03/02/pangguan/</id>
+    <published>2017-03-02T06:54:27.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　想写一个温暖的故事。我知道有许多的人关注我，或明显，或默默。这许多的关心，想来我不应有悲伤哀愁。然而我的指尖倾满疼痛，在手机暗的屏幕上，划一行行飞扬的破碎。一直喜欢在手机上写字。在深的夜里，听王菲的歌曲。然后，开始。是一只穴居动物，当所有人安睡时，探出头来，在清冽的月光中肆虐。<a id="more"></a><br>　　于是我不能知晓，这个片段该如何起头。姑且，相信它与我无关。<br>　　在寂静的夜里，他坐在冰凉的地上，周围散乱的烟头。想你了，他说，因为我已无人可想。抽泣声，然后电话断了。这样突厥的表达让你措手不及。他的表达是山间的道路，蜿蜒曲折，欲叫人精疲力竭时候，才能知道前路的美景。因而你不知道如何回答，所以你挂断了电话。然而再无睡意，披了衣，坐起来打开音响。温暖的吉他。是他喜欢听的一首，不经意说了。你记住，一遍遍听。你亦因着他温暖。你想你是爱他的。<br>　　你是爱他的，可他无知无觉，只把你当作听众。把那些伤心事告与你知。我不讨厌任何人，只讨厌自己。他说，我是一只湿淋淋的蜗牛，回头看见一路走过来的痕迹，斑驳破碎。迈出一步，会有一道丑陋的疤痕。亦不能停留。想逃离，却尾随一路恶痕。我不能爱自己。你静静的听了，因此疼痛起来。可你却索然地说，这并不是值得痛苦的事，睡一觉便好了。欲叫他开心。<br>　　你想你应该开心了，他终于想起你来。他对你说，我想你了。仿佛等了一千年。你轻轻流下泪来。在静的夜里，在温暖的吉他声里，因着简单的一句话，湿润了自己的心。<br>　　他说，我想你了，因为我已无人可想。<br>　　旁观别人的苦痛，清晰明了，所以不会疼痛。这不是我的片段，我是过客，依在路灯旁。看他与她演完一出电影。然后继续前行。来不及疼痛，因而相信它的温暖。如此而已。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　想写一个温暖的故事。我知道有许多的人关注我，或明显，或默默。这许多的关心，想来我不应有悲伤哀愁。然而我的指尖倾满疼痛，在手机暗的屏幕上，划一行行飞扬的破碎。一直喜欢在手机上写字。在深的夜里，听王菲的歌曲。然后，开始。是一只穴居动物，当所有人安睡时，探出头来，在清冽的月光中肆虐。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>林说</title>
+    <link href="http://alai.me/2017/03/01/linshuo/"/>
+    <id>http://alai.me/2017/03/01/linshuo/</id>
+    <published>2017-03-01T07:06:25.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>林说，这个小镇的人不珍视时间。我从西走到东，没有遇见那个带手表的人。在这儿，没人喜欢手表。因此，我渐渐丢失了记忆里的形状奇特的手表。那些手表是一个个符号，在我的脑海里，鲜花一样绽放着。可它们渐渐的失去了养分，日益枯萎。而我，束手无策。<a id="more"></a><br>林说，他们从来不去电影院，看一部廉价电影。两层楼的电影院贴满了广告，以另一种状态继续它的存在。影院外的广场上，摆了等待出售的摩托车。它们不知道将被谁拥有且驾驭。所以，所以它们等。或者过程漫长痛苦。可是它们有期待，这是能够坚持的理由。广场上亦有成人的演出，在演出之前，用小型车载了广告，沿街宣传。傍晚时，聚满了人。仿佛一场盛大的晚宴。   这是小镇居民的娱乐，他们自得其乐。毫不掩饰的欲望表现。而我，依然期待电影院的复活，即使上演一场恐怖片，我依旧能在过往的时光里，听见你温柔的埋怨。因而愉悦。<br>林说，受上帝控线的木偶，在荒芜的城镇里，欢呼。祈祷一个甜美世界。上帝喝光了那杯茶。肆虐着完满。<br>林说，我终于不爱你，我只是感动。在长久的空白里，让我听见你的声音。它甜美欢快。因而我快乐起来。所有浮躁喧嚣，皆皈依时间，沉静安详。<br>林说，我不能长久等待。我只是把它当做冬日里的一米阳光，曾温暖过。然后冬天过去了。烤糊了的快乐，以及烧焦了的幸福，在炙热的阳光里，奋力起身。没有可以依靠的东西，我需要独自用力。那些五彩斑斓的肥皂泡，在浑浊的空气里，骤然爆裂。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;林说，这个小镇的人不珍视时间。我从西走到东，没有遇见那个带手表的人。在这儿，没人喜欢手表。因此，我渐渐丢失了记忆里的形状奇特的手表。那些手表是一个个符号，在我的脑海里，鲜花一样绽放着。可它们渐渐的失去了养分，日益枯萎。而我，束手无策。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>夜会</title>
+    <link href="http://alai.me/2017/02/25/yehui/"/>
+    <id>http://alai.me/2017/02/25/yehui/</id>
+    <published>2017-02-25T14:30:32.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　故事里的女主角是我吗，你问。<br>　　不，我的故事里，没人是主角。<br>　　关了灯，双手环抱膝盖，背靠着墙，坐在地板上。这样的姿势，不能被他人所安慰。木质地板冰凉。月光清冷，透过落地窗挤进来。拉长了身影。你开始哭泣。地板上淡的泪渍，是一朵朵艳丽且繁盛的花。花瓣破碎，汁水四散。鱼缸里的金鱼停止游动，在清凉的月光里，安静地摆尾。<a id="more"></a><br>　　南方小镇常年炎热，即使是冬季，也不轻易下雪。因此那场罕见的雪沸腾了整个小镇。小广场鲜有的繁盛，欢乐的人群，穿各色各样的衣服。是一场盛大的时装展。广场的中央堆砌了三个雪人。两个较大，另一个较小，仿佛一家三口。他拿了相机，拍照。而你只是戴着耳机，静静观看。太阳终于倦了，滑进地平线。人群渐渐散去，街灯亮起来。地面的雪反着光，广场依旧明亮。他说，你好。你轻轻点头。转身欲走。不拍一张？他问。你拿出手机，按下拍照键。<br>　　那是你们的第一次相遇，他寄一封信给你，是一张照片。是广场上的雪人，照片上的阳光格外艳丽，灼伤了眼睛。我看见你，胡乱按下手机键盘。他说，可是，那个时刻应该被记住。<br>　　他寄给你各种各样的照片，高耸的山峰，阴沉的云，笔直的树干。。。反面有秀丽的钢笔字，是断断续续的言语。有时他写，我拍下山峰，然后攀爬。有时他写，我看着湖里的鱼，蹲在湖边流泪。你从不给他回信，亦不知道他的地址，可是那些句子一点点就渗到心里。<br>　　去看他的博客，他写童年，写遇见的事情，写甜美与疼痛。用绮丽的文字和华美的照片。博客上也有他寄给你的照片，只是看不到秀丽的钢笔字，你倍感甜美，且深陷在这甜美里无法自拔。<br>　　他依旧不定期的寄照片给你，反面依旧有秀丽的钢笔字。你看着那些文字，微笑。而最终知晓的他，仿佛是镜中的自己。安静面容下，有黑色潮水澎湃。甜美笑容背后，是绝望的心伤。这是一段爱情，你下定决心，要告诉他你心中的甜美与期待。你登上他的博客。<br>　　博客有了更新，长的篇幅里一个女子若隐若现。那段文字温馨而甜蜜。因此你问，这故事的主角是我吗。<br>　　他说，我的故事里，没有主角。我只是一个人，不停地走。不停地拍照。想象那样的绝美风景里，有温暖和甜美的故事。可是，最后的结局，注定不能完满。<br>　　期待成了绝望。终于明白，有一些人注定只能在静夜里，孤独地观望那些遥不可及的幸福。你拿出那个盒子，暗红色木头有精致的花纹细细缠绕，铜质锁扣被抚摸得光亮。慢慢打开，照片齐整，秀丽笔迹清晰可见。一张张细细翻阅，似要把这逝去的时光刻印。然后你划燃火柴。如果不能完整地得到，就让它整个地消失。<br>　　你让我相信，还真有感情这回事。这是王菲的一首歌。你们第一次遇见时，这个哀怨的小女人如此地唱。<br>　　在这春暖花开的四月，用尽所有气力，欲把哭泣埋葬在不为人知的角落。可你听见丝绸破裂般尖锐而短促的声响。<br>　　静的夜，一个女子放声大哭。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　故事里的女主角是我吗，你问。&lt;br&gt;　　不，我的故事里，没人是主角。&lt;br&gt;　　关了灯，双手环抱膝盖，背靠着墙，坐在地板上。这样的姿势，不能被他人所安慰。木质地板冰凉。月光清冷，透过落地窗挤进来。拉长了身影。你开始哭泣。地板上淡的泪渍，是一朵朵艳丽且繁盛的花。花瓣破碎，汁水四散。鱼缸里的金鱼停止游动，在清凉的月光里，安静地摆尾。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>遇见美好</title>
+    <link href="http://alai.me/2017/02/21/yuejianmeihao/"/>
+    <id>http://alai.me/2017/02/21/yuejianmeihao/</id>
+    <published>2017-02-21T07:28:21.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　亲爱，想问问你是否爱我，却不知该用哪个字起头，是我不能忘记你。是你说要回到我身边。所以我静静的等。或许，你却早已忘了。<br>　　亲爱，时间比蜗牛走得更慢，我跟在秒针的后面，一圈圈地绕，却怎么也绕不回原点。<a id="more"></a><br>　　亲爱，你与我的爱情，是蜻蜓点水起的涟漪，转瞬即逝。短暂的惊艳在脑海里刻成时光的雕塑。回避抑或直视。我一直没勇气。藏在回避与直视的夹缝里，痛并快乐。<br>　　亲爱，回头看看我们的青春，一段想起来的繁华里莫名的衰败。种粒希望的种子，用绝望浇灌，能否长出微笑，结成愉悦果实？<br>　　难道，遇见你只是一场美丽的错误？眼角的泪，在你说分开的那瞬，是秋天的叶，静默地掉落，迅速地枯萎。<br>　　如果相遇只为了别离，又如何要与你在如水月色下窃语。<br>　　用时光熔化痛苦，寂寞是模板，绝望是最好的冷却剂。用相遇的魔咒，铸一座思念的雕塑，在衰老的记忆里，倔强的矗立。<br>　　不能再想了，夜有多深，寂寞的色彩就有多浓烈。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　亲爱，想问问你是否爱我，却不知该用哪个字起头，是我不能忘记你。是你说要回到我身边。所以我静静的等。或许，你却早已忘了。&lt;br&gt;　　亲爱，时间比蜗牛走得更慢，我跟在秒针的后面，一圈圈地绕，却怎么也绕不回原点。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>暖暖</title>
+    <link href="http://alai.me/2017/02/20/nuannuan/"/>
+    <id>http://alai.me/2017/02/20/nuannuan/</id>
+    <published>2017-02-20T08:53:27.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　她穿蓝色牛仔，白色球鞋。在熙攘的街上，面带微笑。他走近她。听见脚步声，她说你好，你能帮我找到我的钱包吗？钱包就在她的脚下，外层贴了她的照片。他翻了翻钱包，里面只有一张卡片。卡片上是她的名字：李艺媛，下面是她的电话。他轻声地念，李艺。。。然后停住了，他把钱包放进她的手里。他说，再见。<a id="more"></a><br>　　电话声。她摸索着拿起听筒。你好，暖，我叫林。熟悉的声音，可是他叫错了她的名字。她没有纠正。<br>　　我在钱包里找到你的电话。能陪我聊会吗？<br>　　可是我并不认识你。尽管我知道你的声音。<br>　　这就够了，你熟悉我的声音，不是吗？林说，你不必知道我是谁。<br>　　她熟悉他的声音，而声音是她能够找到的事物存在的惟一证据。所以她无法拒绝。因而他们相知。<br>　　林叫她暖暖。他说，暖暖，我来照顾你好吗？你可以牵我的手，去听潮，听花开。我能让你听见幸福。她不知道怎么回答，她一个人，住在大的房子里。母亲从遥远的地方寄给她许多钱。却从不说要给她幸福。她开始哭泣。林一下子慌了。暖暖，如果你不愿意，那就算了。暖暖在哭泣里，温柔地说，我愿意。<br>　　林搬了东西过来，是简单的生活用品。你可以住妈妈的房间，暖暖说，已经很久没有打扫，需要整理一下。林，我要模模你的脸。林拉住暖暖的手，放到额头。那么，请开始，暖暖。林很郑重地说，仿佛是一次庄严的仪式。暖暖的手停在林的嘴角，脸上浮起微笑。就应该是这样，暖暖说，我就知道你有好看的嘴唇。林也笑了。暖暖，现在带我去打扫房间。<br>　　午夜，月光是流动的水银，温柔的色泽。林听见暖暖的声音，林，我睡不着，请陪我一会儿。林开了门。暖暖抱了膝盖，坐在林的旁边。林，已经那么久，我一个人在这里，找不到人说话。我每天都听那个破旧的收音机。房间寂静，没有声音，亦没有光。惟有收音的喧嚣。妈妈寄许多钱给我，然而她不与我通话，没有一个电话。她只是寄钱回来。房子这么大，盛放满满的孤独。我只是想有一个人，能听我说话。帮我赶走孤独。你念错了我的名字，你叫我暖暖。我喜欢这个名字，你与我说话时，我是温暖的。暖暖轻轻地抽泣，林，请抱抱我。<br>　　暖暖，我在熙攘的人群里看见你，对每一个人微笑。因而靠近你。你的笑容亦温暖我，于是我念错了名字。暖暖，我要你爱我。<br>　　我爱你。<br>　　在如水的月光里，林紧紧抱住了暖暖。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　她穿蓝色牛仔，白色球鞋。在熙攘的街上，面带微笑。他走近她。听见脚步声，她说你好，你能帮我找到我的钱包吗？钱包就在她的脚下，外层贴了她的照片。他翻了翻钱包，里面只有一张卡片。卡片上是她的名字：李艺媛，下面是她的电话。他轻声地念，李艺。。。然后停住了，他把钱包放进她的手里。他说，再见。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杂记</title>
+    <link href="http://alai.me/2017/02/19/za-ji/"/>
+    <id>http://alai.me/2017/02/19/za-ji/</id>
+    <published>2017-02-19T13:02:06.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　一<br>　　雨，很好。天气逐渐凉爽。开始看足球，减少听摇滚的时间。有时候在想我是不是变平和了。一些坏习惯被抛弃，一些被加强。一些能力逐渐减弱，比如写字。一个好的例子：面对这场大雨，唯一被想起的，是只言片语。这件事情让我惊恐万分。尽管文字不是我谋生的技能。但却是我自娱自乐的方式，然而现在这能力也要被我遗忘了，如何不惶然失措。可不曾想过弥补。我趴在露天的阳台上，像一只衰老的蚂蚁，动也懒得动了。又是一只跳蚤，在透明的玻璃杯里，降低了跳跃的高度。<a id="more"></a><br>　　二<br>　　爱恨就在一瞬间，举杯对月情似天。爱恨两茫茫，问君何时恋，菊花台倒影明月，谁知吾爱心中寒。。。<br>　　三<br>　　为什么在爱的时候，心也是孤独的。<br>　　四<br>　　他说，我想拍一部电影。电影里有大段大段的空白，没有声音，没有画面。这样的电影，给那些藏着故事的观众。他们在白色的银幕上，看到各自的故事上演，或者悲伤，或者愉悦。这场电影是一次盛大的倾诉。<br>　　五<br>　　一直害怕打电话，语调的变化总是让我忐忑。有时候电话两端的沉默叫我窒息。因此我习惯用短信与别人沟通，一个一个的文字，隐藏了情感。可以停留，而不用害怕其间的空白。因为满怀期望而甜美等待。尽管期望成空。等待的空白里，可以做别的事。这总是好的。却终于使我缺失了与人的直接交流。<br>　　六<br>　　不要相信这是甜美相遇，这是磨难。<br>　　七<br>　　就算时间停止了，有些东西依然在消逝。比如，回忆。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　一&lt;br&gt;　　雨，很好。天气逐渐凉爽。开始看足球，减少听摇滚的时间。有时候在想我是不是变平和了。一些坏习惯被抛弃，一些被加强。一些能力逐渐减弱，比如写字。一个好的例子：面对这场大雨，唯一被想起的，是只言片语。这件事情让我惊恐万分。尽管文字不是我谋生的技能。但却是我自娱自乐的方式，然而现在这能力也要被我遗忘了，如何不惶然失措。可不曾想过弥补。我趴在露天的阳台上，像一只衰老的蚂蚁，动也懒得动了。又是一只跳蚤，在透明的玻璃杯里，降低了跳跃的高度。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>火柴</title>
+    <link href="http://alai.me/2017/02/17/match/"/>
+    <id>http://alai.me/2017/02/17/match/</id>
+    <published>2017-02-17T08:33:31.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　是很好看的盒子，顶部是摇滚歌手的肖像。抱着吉他，深色墨镜，以及长的金色头发。内里是较小的盒子，亦是这样的包装。小的盒子里，装满满的火柴。细长的白色木棍，灰色火柴头。抽出一根来，在静的夜里点亮。它不明亮，照不完整个角落。亦不温暖。你却如此喜欢，小心地拢了手，遮挡四周的风。且轻柔地呼吸。于是角落在火柴的光里，渐渐的暧昧起来。又看见一些事物。在暧昧的光亮里，渐渐清晰起来。<a id="more"></a><br>　　树叶翠绿，阳光打在上面，如同伤疤，触目惊心。还是不喜欢这样突兀的光，它太明亮，刺痛了眼睛。反而是暗的存在。所以，所以你拉上了厚厚的窗帘。房间忽然暗下来，这里亦是暗的所在。然而你拥有火柴，火柴的光，暧昧且柔和，即使不能带来温暖，你依然在这样的光里，愉悦起来。<br>　　火柴在盒子里，排列齐整。丧失自由的完美存在。它们没有思想，亦没有语言。你无法知晓它们的倾向。因此要替他们选择，给它们结果，或完满或残缺，且做个了断。盒子翻转，火柴散落一地。拾了一根，点燃。扔进地上的火柴堆。所有的火柴开始燃烧，刺目火焰燃烧自由的灰烬。或许残缺，却终于了结。这火逐渐熄灭，光亦渐渐微弱。而自由，亦随着这光，融进暗里。黑暗，终究一如既往的来了。<br>　　终于在暗里了。你在暗里思考。以各种悲痛与寂寥冲撞暗的围墙。然而黑暗平静且博大，包容所有思想。暗是枷锁，是围城，亦是监牢。你是暗的囚徒。被暗消融了斗志，以及，以及脆弱的肉体。你终究因着暗的笼罩恐慌起来。期待一束光，照亮寻找自由的道路。然而火柴已消耗殆尽，因着你混乱的选择。把微小的希望烧毁在穷尽的暗里。回首，你的无知一览无余。而前方的道路，是无尽的黑暗。<br>　　夜色，月不情愿的挤出半张脸来。光亮火柴似的柔弱且暧昧。你亦喜欢这样的光亮。在这样的光亮里，可以摘了面具，露出欲望的獠牙。你不是那个温文尔雅的男子，而是狂乱喧嚣的暴徒。肆虐在天马行空的思维里，冲破一切束缚，拥抱甜美自由。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　是很好看的盒子，顶部是摇滚歌手的肖像。抱着吉他，深色墨镜，以及长的金色头发。内里是较小的盒子，亦是这样的包装。小的盒子里，装满满的火柴。细长的白色木棍，灰色火柴头。抽出一根来，在静的夜里点亮。它不明亮，照不完整个角落。亦不温暖。你却如此喜欢，小心地拢了手，遮挡四周的风。且轻柔地呼吸。于是角落在火柴的光里，渐渐的暧昧起来。又看见一些事物。在暧昧的光亮里，渐渐清晰起来。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>春水长流，故人已逝</title>
+    <link href="http://alai.me/2017/02/16/chunshuichangliu/"/>
+    <id>http://alai.me/2017/02/16/chunshuichangliu/</id>
+    <published>2017-02-16T01:44:53.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　我把数年的孤寂，凝固成青果。却被你漫不经心的打破。窗外连绵的雨，一点一滴打湿你的背影。青石碧绿，雨声轻柔，你把背影留成我寂寞的回忆。在五月里，想你，推开我的小窗，碾碎沥沥细雨。想你，在漫天花雨里，俯下脸庞说：我爱你。<br>　　草儿又壮了，鸟儿还在低鸣。轻轻的，怕惊落一树花红。在清晨的阳台上呼吸。阳光在我身上碎了又碎，散落一地金黄。<br>　　我是那么想你。于是月儿羞得藏起来。太阳却醒了。梦碎了。<a id="more"></a><br>　　只有你能洞察我的内心，了解我所渴求的，希翼的。他说，有时候我想起你，想与你来一场刻骨铭心的爱恋。可是，我只喜欢漂亮的女人伴在身边。比起内里我似乎更看重外表。这个男人总是这么真实，近乎残酷。这些句子深深刺在我心里。扎得我体无完肤。<br>　　又想起，深夜为我去买的解酒药，因此泪流满面。可他说：我以为我是会对流逝时间和事物习惯的。是安的文字，他带我靠近安的文字，安的文字是寂静湖水，湖水清澈见底，波光四潋，湖里各色各样的鱼，愉悦或者悲伤。因此我爱上她的文字。没日没夜地读，分不清安是我，或者我就是安。然而我已经成为过往，他的世界，属于我的角落荒草丛生。然后，然后某一天消失。我这样的想起。心如刀割。<br>　　城市中央的湖边灯光暧昧，偶尔有行人经过，拉长了身影。分散湖边的石头凳子上，三三两两斜斜的身影。湖水清澈，月色迷人，手中食物辛辣。我是慵懒的过客。观望他们的喜悦或者疼痛。灯光灭了又亮，明了又暗，有的人离开，有的人到达。而多年以后，谁还记得曾经的花前月下？<br>　　而我以为有一天终究要把他忘掉，因而写下许多的文字，关于我们，关于脑海里支离破碎的记忆。这些文字，是筑在爱情上的房屋，爱情碎了，因此那些文字轰然倒塌。把我掩埋在随之而来的漫天尘埃里。发黄笔记本里的满满痛苦与快乐。不过是经年往事，没有被翻阅的理由。我们幸福且疼痛的青春，随这潺潺春水……一去不回了。<br>　　你是否爱我。<br>　　爱。<br>　　可是那又如何，我终究要离开你。爱你，离开你也是可以的。<br>　　那个夜晚，他喝醉了酒。把头埋在枕头里，泪流满面：你是我要用一辈子去疼的女人，可是，我要离开你了。<br>　　我淡淡的笑。是你要离开我了。可是，为什么你要哭泣？俯身过来，吻他的泪水：乖，别哭。天快亮了。太阳就要出来。会很温暖。毕业时候，一样要分开。这是提前式。<br>　　我说：这是提前式。<br>　　现在，这是过去时。<br>　　你是我要用一辈子去疼的女人。这句话我永远记在心里。就算是谎言也好。而现在，是我，要忘了你。小说终归是小说，我们要深信还有温暖，并因着这信仰温暖着。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　我把数年的孤寂，凝固成青果。却被你漫不经心的打破。窗外连绵的雨，一点一滴打湿你的背影。青石碧绿，雨声轻柔，你把背影留成我寂寞的回忆。在五月里，想你，推开我的小窗，碾碎沥沥细雨。想你，在漫天花雨里，俯下脸庞说：我爱你。&lt;br&gt;　　草儿又壮了，鸟儿还在低鸣。轻轻的，怕惊落一树花红。在清晨的阳台上呼吸。阳光在我身上碎了又碎，散落一地金黄。&lt;br&gt;　　我是那么想你。于是月儿羞得藏起来。太阳却醒了。梦碎了。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Git</title>
+    <link href="http://alai.me/2017/02/14/about-git/"/>
+    <id>http://alai.me/2017/02/14/about-git/</id>
+    <published>2017-02-14T07:08:16.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一个新手的折腾之路"><a href="#一个新手的折腾之路" class="headerlink" title="一个新手的折腾之路"></a>一个新手的折腾之路</h2><h3 id="git搭建。"><a href="#git搭建。" class="headerlink" title="git搭建。"></a>git搭建。</h3><p>最近心血来潮，想搭建一个github page 博客，然后各种google 。。。嗯，其实我用的baidu。。。</p><ol><li>下载安装Git …<br>windows 下面用msysgit(自己百度)就好啦。<br>linux 嘛直接命令行安装，以ubuntu为例：<blockquote><p>sudo apt-get install git</p><a id="more"></a></blockquote></li><li><p>配置git<br>打开git bush:</p><blockquote><p>git config –global user.name “Your Name”<br>git config –global user.email “<a href="mailto:email@example.com" target="_blank" rel="noopener">email@example.com</a>“</p></blockquote></li><li><p>开始使用  </p><blockquote><p>git init<br>git checkout -b dev   # 创建dev分支，并切换到dev<br>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>/yourname/youname.github.io.git<br>git add .<br>git commit -m “你想说啥就说啥，本次提交的注释”<br>git push origin -u dev # 提交到远程仓库的dev分支  </p></blockquote></li><li><p>大坑</p><ul><li>各种问题的解决办法（菜鸟总是想方设法偷懒而不是翻教程，嗯，就酱！）,适用远端已有仓库的情况  <blockquote><p>git clone <a href="https://github.com/yourname.git" target="_blank" rel="noopener">https://github.com/yourname.git</a> Blog # 从github 克隆库到本地Blog 文件夹  </p></blockquote></li></ul></li></ol><p>然后就可以愉快的：  </p><blockquote><p>git add .<br>git commit -m “你想说啥就说啥，本次提交的注释”<br>git push origin -u dev # 提交到远程仓库的dev分支  </p></blockquote><ul><li>把需提交的东西拷贝到Blog文件夹，如果是hexo部署，有第三方主题的，将第三方主题里面的.git文件夹，.gitignore删除，然后再提交</li></ul><h3 id="部署到-coding-和github"><a href="#部署到-coding-和github" class="headerlink" title="部署到 coding 和github"></a>部署到 coding 和github</h3><p>参考：</p><blockquote><p><a href="http://www.jianshu.com/p/7ad9d3cd4d6e" target="_blank" rel="noopener">http://www.jianshu.com/p/7ad9d3cd4d6e</a></p></blockquote><h3 id="travis-CI-持续集成"><a href="#travis-CI-持续集成" class="headerlink" title="travis CI 持续集成"></a>travis CI 持续集成</h3><p>   参考：  </p><blockquote><p><a href="https://segmentfault.com/a/1190000005622331" target="_blank" rel="noopener">https://segmentfault.com/a/1190000005622331</a><br><a href="http://blog.csdn.net/woblog/article/details/51319364" target="_blank" rel="noopener">http://blog.csdn.net/woblog/article/details/51319364</a></p></blockquote><ul><li>加密时候请在<strong>linux</strong>下进行，windows有各种坑等你跳！</li></ul><p>不想再敲字啦，我就是懒，你来打我啊！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一个新手的折腾之路&quot;&gt;&lt;a href=&quot;#一个新手的折腾之路&quot; class=&quot;headerlink&quot; title=&quot;一个新手的折腾之路&quot;&gt;&lt;/a&gt;一个新手的折腾之路&lt;/h2&gt;&lt;h3 id=&quot;git搭建。&quot;&gt;&lt;a href=&quot;#git搭建。&quot; class=&quot;headerlink&quot; title=&quot;git搭建。&quot;&gt;&lt;/a&gt;git搭建。&lt;/h3&gt;&lt;p&gt;最近心血来潮，想搭建一个github page 博客，然后各种google 。。。嗯，其实我用的baidu。。。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载安装Git …&lt;br&gt;windows 下面用msysgit(自己百度)就好啦。&lt;br&gt;linux 嘛直接命令行安装，以ubuntu为例：&lt;blockquote&gt;
+&lt;p&gt;sudo apt-get install git&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://alai.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="git" scheme="http://alai.me/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>四月裂帛</title>
+    <link href="http://alai.me/2017/02/14/siyueliebo/"/>
+    <id>http://alai.me/2017/02/14/siyueliebo/</id>
+    <published>2017-02-14T05:25:51.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　　　　　　　　　三月的天书都印错，竟无人知晓。<br>　　　　　　　　　　　　　　　　　　　　　　　　　　—-简媜<br>　　终于敌不过你，三言两语。又点支烟，泪浸了烟尘。你说寄我一叶相思，要我静静地等。日落月初起，谁把月华散落一地？满地的落花，红了又红，总扫也不尽，终究不是归期。五月的天空拼了命地晒，等不到你来的尽头。<a id="more"></a><br>　　“我作了一半，余下的，你来。”回眸一笑百媚生，我非转世柳下惠，自然从了。作画，并非难事，纵然业余，亦不失美妙。只是，如何切合你已作一半。穿过指缝的时间都在偷笑，要等我落败。凝神细想，下笔、勾勒、细描、停笔。一气呵成，似流水连绵。细细看来，也无纰漏。你欢喜雀跃，我波澜不惊。<br>　　你说：“可憾无人题词。”<br>　　我说：“我来。”<br>　　你满目诧异：“难道你，文武全才？”<br>　　铺平了素笺，朱毫沾了浓墨，不忍下笔。片刻，换了钢笔，写我的蝇头小楷：“花红剪了叶绿，春雨润了冬泥。”<br>　　你不禁莞尔：“终究不是全才，这词也胡诌，然读来悦耳。也罢，寻一书匠，题字裱框。算你赠与我的。”<br>　　你我约定，共进晚餐。本欲寻一小店，浊酒一壶，陋食三两。你却坚持亲自下厨：“固然不抵海味山珍，也尚能入口。”你执意如此，我亦不推辞。省了二三小钱，亦省了脚程。我说：“也好，待我去寻二两浊酒。”你说不必，开了窖门，满仓佳酿。我诧然，弱弱一女子，何来窖藏？却只道：“好。”你亦不解释，转身下厨。<br>　　缸里两尾鱼，一尾金黄一尾白。嬉戏欢悦，旁若无人。我顽皮之心又起，欲毁了这欢悦。轻敲了缸沿，料想它们仓皇四窜。可它们却靠拢过来。这次第，怎一个惊字了得。你似听见了声响，从锅碗瓢盆间回过神来：“若百无聊奈,桌上有烟，可解一时困顿”“不抽”你探出头：“果然好男子。稍待片刻，就可开怀畅饮了。”<br>　　华灯初上，你摆了菜肴满桌。我早已饥肠辘辘，自不与你客气。酒至半酣，你说：“初见你时，宛若石佛，却又怎愿同我把盏邀月？”我不言语，风卷残云，把盘中熟食，一扫而空。又见半盏清酒，仰头灌下。只道：“好酒。”<br>　　你可知，那日挥毫，恍若尽了我半生芳华？<br>　　你又把盏倒满：“也罢，喝”果然巾帼不让须眉，豪饮之。<br>　　酒酣夜央，终将作别。你牵了我的手，却又放了，犹言又止。临出门前，挤出片言只语：“若明日花红，邀你来赏。”回首，院中春花早已艳了。满庭落红压春泥，半锁残门隐红颜。清朗明月，纷飞细雨，化作别离愁绪。<br>　　人面不知何处去，桃花依旧笑春风。春花又红，却不见，你笑颜。<br>　　南方古镇。镇里古刹，香红火旺，其中一绿树，高大繁茂。树干足两人合抱之势，却缠绕缕缕红丝。不明其中缘由，圆睁了双目。你却机敏，拉来寺中僧侣，寻其中故事——原来是月老红线，欲求百年好合者，寻得红线，系之，便可得月老眷顾。你笑：“这般故事，听来感人，却也足够。有情人自成眷属。又何必花这冤枉钱！”辞了那僧人兜售红线之意。继续前行。见那古旧贞洁牌坊，你说：“若你去了，我当独守空房。”我笑：“且不言小生命长，若我真去了，要你快些嫁作他人妇。”“当真如此，不如随你去了吧。”“也好。”<br>　　时光如梭，经年往事仿佛昨日一般历历在目。回想起，那时我波澜不惊，你欢喜雀跃。只换作你重如泰山，我轻于鸿毛。一支烟时间，我深信，你就会，把我同这青烟一起，散了，淡了，然后忘了。就如这四月的雨，缠绵悱恻，待滋润了春泥，便悄然失踪。春色依依，花好月圆。昨日庭院红花，不过是他日夏雨戏谑玩物。我欲把时间凝固成雕刻，却掉了早春的刻刀，怎奈春风正好，蝶儿正欢。如何惊了这大好风光？<br>　　也罢，也罢。  </p><blockquote><p>“记得一句话：带着命定的激情和忧郁。那么像你，我们注定要这么安静的看时间一天天过去，在彼此言语与视线里温柔的沉沦，在我们的爱前我丧失了语言的花朵，任快乐，伤心，希望，绝望交叉蔓延流入血管变成蓝色。灵魂的交错改变，眼神的伤感留恋、一点一点刻骨铭心。我不愿用一辈子在心里最深处有你，那么痛苦，几年后我将如何面对，如灵魂撕裂，血液枯竭。”  </p></blockquote><p>　　这许文字，你赠与我的。叫我知晓，那个春暖花开的四月。你爱过，然后不爱了。仅此而已。　　  </p><p>　　素颜泪成行，<br>　　原是别离伤。<br>　　欲借春风剪愁妆。<br>　　怎奈春风暖冬凉，忙。<br>　　也罢，也罢。  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　　　　　　　　　三月的天书都印错，竟无人知晓。&lt;br&gt;　　　　　　　　　　　　　　　　　　　　　　　　　　—-简媜&lt;br&gt;　　终于敌不过你，三言两语。又点支烟，泪浸了烟尘。你说寄我一叶相思，要我静静地等。日落月初起，谁把月华散落一地？满地的落花，红了又红，总扫也不尽，终究不是归期。五月的天空拼了命地晒，等不到你来的尽头。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>弃儿</title>
+    <link href="http://alai.me/2017/02/12/qier/"/>
+    <id>http://alai.me/2017/02/12/qier/</id>
+    <published>2017-02-12T08:53:42.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　小时候常做恶梦，半夜里惊醒。父母不愿看见我受这样的磨难，带我去看懂得占卜的老者。老者取了面粉，放在青花瓷的碗里，蒙了白布。在身体上来回摩擦。根据白布的形状，判断你的病因。父亲不说话，站在一旁静静观望。过程漫长单调。老者说你是瀑布下的弃儿。又说，你常蹲在石头上。这是事实。 <a id="more"></a><br>　　你有一种与人疏远的癖好。在学校里，一个人蹲在石尖看天空，不与人来往。幼小的瞳里有无法言说的忧郁。阳光亮丽，你咪了眼。天空的蓝是一种疾病，是伤寒病人的脸。而你如此喜欢。就如同一场盛宴，无差别的聚会。<br>　　父亲买了《儿童世界》，这是你的第一本杂志。你坐在火坑旁阅读，很快深入其中。火苗殷红，阳光般温暖。父亲在一旁抽烟，烟筒咕嘟作响。母亲量了你的身体，为你织一件毛衣。<br>　　爷爷喂给你一口白酒，看你辣得伸了舌头。笑皱了眉。教你下象棋，你握着马，直线行走。<br>　　如此温馨，你记住了那段时光。<br>　　父亲付了钱，得到一段红绳，仔细地扎在你的手腕上，你不说话，安静地看腕上的线头。母亲轻轻的叹气，这孩子……<br>　　自此以后，便没有了梦魇。你对老者的话深信不疑。老者说你是一个弃儿。你沉默地看着父亲，不发问。渴望一个令你害怕的答案。你如此恐惧而又满怀期待。父亲仍然不语，沉默着转身离去。你又想起母亲的叹息来。因而你觉得事实毋庸置疑。你决定单独拜访懂得占卜的老者。接了礼物，老者不问来意，只顾自说自话。一切因果，宿命已定。假作真时真亦假,无为有处有还无。这分明是《红楼梦》里的句子。你明了其中意思。老者送你《佛经》，让你读一读。你不答谢，转身离开。从此翻阅。却不带信仰，认为未必能够脱离尘世。只是对庙宇里的大佛诚惶诚恐，面带敬畏，就像敬畏懂得占卜的老者。<br>　　多年后，破旧的红线断落。你离开家乡。有了自己喜爱的女子。<br>　　你们去旅行。是一个古旧的镇子，有属于过往时光的气息。<br>　　你为她拍照，逆着光。她穿灰色布裙，没有花纹。黑色网格披肩，蓝色牛仔，白色球鞋。走太多的路而胀红的脸颊。这是你第一次拍照，那张照片曝光不足。你依然满心欢喜。半山腰的寺庙是此行的目的。她是孱弱的女子，然而内心有坚定的信仰。因此不顾路途陡峭。沿着螺旋的石阶，一级一级攀爬。你不是朝圣者，无任何宗教信仰。只觉在她身边就满心欢喜。因而尾随其后。途中的亭子里，有年老的人，用随身携带的纸扇风，大口地喝水。额头细小的汗珠。目光坚定且执着。也有年老的夫妇，相互搀扶，蹒跚地继续他们的路途。他们都是有着坚定信仰的人。这一切如此美好，包括你身边的女子。<br>　　你们终于抵达。<br>　　她去朝拜，买一把香，分散开来，对遇见的佛叩头。你旁观这一过程。坐在凳子上，拿着相机。看着她崇敬的样子，你忘了拍照。她说，你是否许愿。不。你并不信仰，你只是敬畏。<br>　　她偶然生气。她说，回去，别跟着我。她似乎想把你遗弃。也许她只是想独处。可是，你忽然想到童年。老者说你是弃儿。而她似乎想把你遗弃。可怕的联想。你不说话，转身回去。向店主拿了钥匙。静静等待，期待她的嘴唇，鲜花般靠近你的脸庞。<br>　　你是一个迷路的孩子。坐在公园的椅子上。安静地等待母亲温柔的呼唤。只是天黑了，母亲还没有来到。你不敢走开，不知道前方的路通向何方。不知道母亲是否来寻你。这一切尚不确定，不能贸然行动。你也不愿停留。黑夜寂静寒冷，缺失温暖。然而你静静等待。也许天亮了，通向家的路就在眼前。<br>　　母亲对父亲耳语，你却听得清楚。分明在说你是一个弃儿。这其中，母亲不时回头看你，你扭了头，假装看着别处。老者看着你，给你一段红线，摇摇头，远去了。喜爱的女子莫名出现，对你说，回去，回去，别跟着我。<br>　　你从黑夜里惊醒。电视机屏幕发出刺眼的白光。<br>　　你又开始做梦。<br>　　房间里空无一人。<br>　　你想起你们的第一次见面来。<br>　　你在教室里办墙报，看见她的脸，笑容甜美。她与你说话。你安静地笑，像多年不见的老友。然而你们是大一的新生，彼此并不熟识。她表情自然，对你谈论她的喜悦。你终于妒忌她的的健谈。想尽快结束这不对等的对话。<br>　　害怕在别人的面前表现自己的丑陋来，这是你的弱点，因此不能与遇见的陌生人大声说话，有安静的笑容。温文尔雅。不能独处，因缺失的安全感。却又渴望独处，但求得一个空间，安静且温暖。所以你不间断地听歌。涅槃，王菲，九寸钉……不间断地回忆，甜美的苦痛的平淡的。深信痛苦在记忆隧道里，被时光的车轮压碎，惟有愉悦痕迹。<br>　　“有人说回忆是人变老的标志。可连八十年代的人都在拼命回忆。所以我说，回忆不是一个人变老的标志，反复回忆才是。”这是《阿司匹林》的台词。<br>　　你已经老了。连时光都要把你遗弃。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　小时候常做恶梦，半夜里惊醒。父母不愿看见我受这样的磨难，带我去看懂得占卜的老者。老者取了面粉，放在青花瓷的碗里，蒙了白布。在身体上来回摩擦。根据白布的形状，判断你的病因。父亲不说话，站在一旁静静观望。过程漫长单调。老者说你是瀑布下的弃儿。又说，你常蹲在石头上。这是事实。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>流年若水</title>
+    <link href="http://alai.me/2017/02/10/liunian/"/>
+    <id>http://alai.me/2017/02/10/liunian/</id>
+    <published>2017-02-10T04:51:39.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　音乐如水。温暖的吉他，coffee break。你听见自己的呼吸声，清晰，沉重。是一次死亡的历程。割破的手腕，血滴在地板上，绽放绚丽妖艳的花朵。辛辣而芳香，令人兴奋的味道。死亡，生命戛然而止。现在，我是自由的了，没有什么能够约束我。<br><a id="more"></a></p><p>　　阴暗的小巷里，三棵笔直的树。她问，这是什么树。我怎么知道呢，或许是白杨。她碰碰你的嘴唇。路边的树孤傲地耸立着，对即将发生的爱情不闻不问。在场子里，我看见你滑旱冰的样子。因此我明白，我喜欢你。这是她对待事物的方式，一旦有目标，便迅猛出击。从不蜿蜒盘旋，亦不留余地。即使对这个刚认识的男子，仍然如此刚烈决绝。简单出击，结局亦简单：成功抑或失败，清晰明了，没有暧昧的可能。<br>　　男子有清朗面容，柔弱的躯体。却带着慵懒，斜靠在树上。你看见我，并不知晓我的个性，如何得知彼此能够融洽相处。你的喜欢，是你感觉孤独时，我途经你开着的窗。所以想邀我，陪你喝一杯清茶。待得茶尽了，我须得离开。如此而已。你把这一切看得透彻，所以断然拒绝。<br>她颓然语塞，你转身离去。这场游戏，她不是你的对手，轻易出局，因而游戏结束。<br>　　你想念天蝎座女子，她才是你的对手。一个揭穿你，让你惊慌失措的对手。<br>天蝎座女子有明亮的眼睛。轻易看穿你的内里，并总是让你感动。可是你无力表达感激，所以你保持沉默。在她的身旁你看见世界的葱郁繁盛。是溺水时的稻草，得到，于是拥有希望。<br>　　夏夜，稀松的星散着微弱的光。跑道上三三两两的人，渐起渐落的嬉戏声。你们在低矮的树后面，热烈地拥吻。她问，你是否爱我。爱。在喧嚣的激情里，你有明晰的回答。她的身体，甜美芬芳。欲望强烈，是膨胀的气球，即将爆发。可是你知晓的欲望，是一个华丽的盒子。费尽心机得到，满怀期待的打开，内里却是无尽的寂寞。所以你逐渐平静。牵了手，送她回去。道路幽暗宁静，你独自走剩下的一半。那一刻如此孤独，可你微笑着，仿佛要去参加一场盛大的舞会，而你美丽的舞伴正焦急张望。<br>　　球场上草深了。她在腕上系了红绳，又给你系上。你轻轻摇摇手腕，风顺着指缝甜蜜地滑过去，是顺滑的丝绒。柔弱却坚强地温暖你。想起小时候的那条红绳，父亲小心翼翼的给你系上。自此你夜夜安睡，隔离了梦魇。它亦有柔弱却坚强的温暖。因而你深信，爱是温暖，是光明，是希望。爱是一切。<br> 　　　　<br>　　你渴望与爱在一起，容不得片刻疏离。可这世界还存在现实，所有一切暴戾残酷的起始。所有人，须得无可拒绝的臣服。所以你割破了手腕，嘲笑现实，到达理想之地。<br>　　你说，现在我是自由的了，没有什么能约束我。<br>　　思维混乱，视线模糊。这所有的记忆，即将遗忘。喝一碗孟婆汤，三生石写满的故事，再看一眼，再看一眼，然后遗忘。忘川彼岸，是新生。e</p><blockquote><p>以前的文章，搬新家</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　　音乐如水。温暖的吉他，coffee break。你听见自己的呼吸声，清晰，沉重。是一次死亡的历程。割破的手腕，血滴在地板上，绽放绚丽妖艳的花朵。辛辣而芳香，令人兴奋的味道。死亡，生命戛然而止。现在，我是自由的了，没有什么能够约束我。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>花事了</title>
+    <link href="http://alai.me/2017/02/08/hua-shi-liao/"/>
+    <id>http://alai.me/2017/02/08/hua-shi-liao/</id>
+    <published>2017-02-08T12:15:27.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>　       　一从梅粉褪残妆,涂抹新红上海棠. 开到荼縻花事了,丝丝夭棘出莓墙<br>　　　　　　　　　　　　　　　　　　　　　　       　　　——题记<br>　　樱花繁盛，花瓣艳丽且繁盛。很好的阳光穿过枝头泻下来。在这样的时间里，以为能把你遗弃。水泥地面有零落的花瓣，踏上去吱吱作响，是一种哭泣。因此选择放逐了自己。若明年彼时，樱花在开。我一定忘记你。与你的故事，等一个恰当的时间，地点。讲给一个可以倾诉的人。交由他去遗忘。或许我会幸福。这个人，无需地址，无需电话，无需姓名。亦不需安慰，只要倾听就足够。<br>　　某些人随时都可以被忘记，某些人一辈子都无法被遗弃。  <a id="more"></a><br>　　看得最多的是天空，云朵以苍白无力的姿态演绎我的记忆。天空博大悠远，有时是整片的蓝。这样的虚空，可以借来平静心里起伏的黑暗潮水。有时是深的黑暗，于是藏在阴暗的天色下历数自己的伤疤。干涸皮肤下有腥甜的血液。这些东西不能被安慰，只能够承受。如同伤口，不能被碰触被抚摸被慰藉。是整片天空般的寂寞，显现却不被观望。然而亦只能如此，才可以成为身体的一部分，被习惯被融合被遗忘。<br>　　就算逝去的时间也无法阻挡，绝望的苦痛。<br>　　在寂静的时光里，翻阅属于过往的陈旧标识。其间痛苦与快乐，是长的藤蔓缠绕在粗大的树干上，两相交织，不离不弃。因此潸然泪下。似乎我已经老了，靠破碎的回忆存活。<br>　　《阿司匹林》里的台词清晰地浮现。这样的打击，无疑把伤口捅得更深了许多。然而我想我已经在感情上得到了独立。这是一个人真正成年的标志。回忆未尝不好。可甜美可疼痛，并且因着这疼痛与甜美繁盛地活着。<br>　　在静的夜里，想一段爱情。一场在纸上的倾诉。<br>　　那个瘦弱的男子写，我如此爱她。一张苍白的脸下深深的忧伤，可是我从来不懂得如何安慰别人。<br>　　你能为她自杀吗，不能。因此你不爱任何人。你只是爱上爱情以及不能被填补的欲望。你所信仰的爱情，是一场欲望的借口。是永恒的利益和欲望里百无聊赖的突发事件。注定消失。<br>　　再次梦见喜爱的女子。一起梦见的，是一个男子，英俊的轮廓。有淡的香水味。过马路时轻轻牵了女子的手，是懂得照顾人的男子。却无法识别面容。<br>　　忽然的惊醒，兀自好笑，想来是安妮的书看得太多，因此梦见这样的场景。偶有心酸，然而这样的结局。却未尝不好。<br>　　<strong>古今多少事，都付笑谈中。</strong>所有一切，不过如此。  </p><blockquote><p>以前的文章，搬新家</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;　       　一从梅粉褪残妆,涂抹新红上海棠. 开到荼縻花事了,丝丝夭棘出莓墙&lt;br&gt;　　　　　　　　　　　　　　　　　　　　　　       　　　——题记&lt;br&gt;　　樱花繁盛，花瓣艳丽且繁盛。很好的阳光穿过枝头泻下来。在这样的时间里，以为能把你遗弃。水泥地面有零落的花瓣，踏上去吱吱作响，是一种哭泣。因此选择放逐了自己。若明年彼时，樱花在开。我一定忘记你。与你的故事，等一个恰当的时间，地点。讲给一个可以倾诉的人。交由他去遗忘。或许我会幸福。这个人，无需地址，无需电话，无需姓名。亦不需安慰，只要倾听就足够。&lt;br&gt;　　某些人随时都可以被忘记，某些人一辈子都无法被遗弃。
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://alai.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://alai.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown入门</title>
+    <link href="http://alai.me/2017/02/08/markdown-base/"/>
+    <id>http://alai.me/2017/02/08/markdown-base/</id>
+    <published>2017-02-08T11:54:54.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="请叫我Blog狂人"><a href="#请叫我Blog狂人" class="headerlink" title="请叫我Blog狂人~"></a>请叫我Blog狂人~</h2><h3 id="认识-Markdown"><a href="#认识-Markdown" class="headerlink" title="认识 Markdown"></a>认识 Markdown</h3><p>Markdown 是一种用来写作的轻量级「标记语言」</p><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><a id="more"></a><h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><pre><code># 一级标题## 二级标题### 三级标题</code></pre><h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><p>列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。</p><h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><blockquote><p>只需要在文本前加入 &gt; 这种尖括号</p></blockquote><h4 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h4><p>插入链接与插入图片的语法很像，区别在一个 !号</p><blockquote><p>图片为：<code>![alt](href)</code></p></blockquote><hr><blockquote><p>链接为：<code>[alt](href)</code></p></blockquote><p>或者为：</p><blockquote><p><code>[live]([1])</code>[live][1]</p></blockquote><blockquote><p><code>[1]: http://www.live.com</code><br>[1]: <a href="http://www.live.com" target="_blank" rel="noopener">http://www.live.com</a>  “live”</p></blockquote><hr><blockquote><p><code>![alt text][id]</code> </p></blockquote><blockquote><p><code>[id]: /path/to/img.jpg &quot;Title&quot;</code></p></blockquote><h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><blockquote><p><code>---</code><br>或者<br><code>***</code></p></blockquote><h4 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h4><p>用两个 ` 把中间的代码包裹起来</p><p>简单来一下，累死我了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;请叫我Blog狂人&quot;&gt;&lt;a href=&quot;#请叫我Blog狂人&quot; class=&quot;headerlink&quot; title=&quot;请叫我Blog狂人~&quot;&gt;&lt;/a&gt;请叫我Blog狂人~&lt;/h2&gt;&lt;h3 id=&quot;认识-Markdown&quot;&gt;&lt;a href=&quot;#认识-Markdown&quot; class=&quot;headerlink&quot; title=&quot;认识 Markdown&quot;&gt;&lt;/a&gt;认识 Markdown&lt;/h3&gt;&lt;p&gt;Markdown 是一种用来写作的轻量级「标记语言」&lt;/p&gt;
+&lt;h3 id=&quot;基本语法&quot;&gt;&lt;a href=&quot;#基本语法&quot; class=&quot;headerlink&quot; title=&quot;基本语法&quot;&gt;&lt;/a&gt;基本语法&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://alai.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="markdown" scheme="http://alai.me/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>yelee主题设置相关</title>
+    <link href="http://alai.me/2017/02/08/yelee-themes/"/>
+    <id>http://alai.me/2017/02/08/yelee-themes/</id>
+    <published>2017-02-08T11:42:36.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新手的折腾之路"><a href="#新手的折腾之路" class="headerlink" title="新手的折腾之路"></a>新手的折腾之路</h2><p>刚刚地震了，总怕一天被活埋 –好吧，题外话。</p><h3 id="社交图标"><a href="#社交图标" class="headerlink" title="社交图标"></a>社交图标</h3><p>社交图标的链接，帮助文档说：</p><blockquote><p>去掉设置前的 # 再填写链接即可</p></blockquote><p>这个很简单嘛，看我的。<br>原github设置：</p><pre><code>#GitHub: &quot;#&quot;</code></pre><a id="more"></a><p>修改为：</p><pre><code>GitHub: &quot;github.com/CauNong&quot;</code></pre><p>嘿嘿， <strong>我真聪明！</strong> 开始部署，神马！ 居然不是想象中的样子？？？？</p><p>转了一圈，终于搞定：</p><pre><code>GitHub: &quot;//github.com/CauNong&quot;</code></pre><p>这才是正确的写法,唉，傻白甜我只剩<strong>傻</strong>了！</p><h3 id="多标签"><a href="#多标签" class="headerlink" title="多标签"></a>多标签</h3><pre><code class="[tag1,tag2]"></code></pre><p>嗯，就这样。。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新手的折腾之路&quot;&gt;&lt;a href=&quot;#新手的折腾之路&quot; class=&quot;headerlink&quot; title=&quot;新手的折腾之路&quot;&gt;&lt;/a&gt;新手的折腾之路&lt;/h2&gt;&lt;p&gt;刚刚地震了，总怕一天被活埋 –好吧，题外话。&lt;/p&gt;
+&lt;h3 id=&quot;社交图标&quot;&gt;&lt;a href=&quot;#社交图标&quot; class=&quot;headerlink&quot; title=&quot;社交图标&quot;&gt;&lt;/a&gt;社交图标&lt;/h3&gt;&lt;p&gt;社交图标的链接，帮助文档说：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;去掉设置前的 # 再填写链接即可&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这个很简单嘛，看我的。&lt;br&gt;原github设置：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#GitHub: &amp;quot;#&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://alai.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="yelee" scheme="http://alai.me/tags/yelee/"/>
+    
+      <category term="themes" scheme="http://alai.me/tags/themes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客换电脑之后配置</title>
+    <link href="http://alai.me/2017/02/08/hexo-move/"/>
+    <id>http://alai.me/2017/02/08/hexo-move/</id>
+    <published>2017-02-08T11:37:04.000Z</published>
+    <updated>2018-11-15T12:32:53.681Z</updated>
+    
+    <content type="html"><![CDATA[<p>搜了一圈，然后各种问题，最后回到原点，记录下，怕自己忘了</p><h3 id="NPM太慢，换淘宝cnpm"><a href="#NPM太慢，换淘宝cnpm" class="headerlink" title="NPM太慢，换淘宝cnpm"></a>NPM太慢，换淘宝cnpm</h3><pre><code>npm install -g cnpm –registry=https://registry.npm.taobao.org</code></pre><p>安装完成后用cnpm 代替 npm</p><a id="more"></a><h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><ol><li>安装node.js</li><li>安装git</li><li><p>配置git，环境变量、账号、email、以及SSH      </p><p> <code>git config --global user.name &quot;yourname&quot;</code><br> <code>git config --global user.email &quot;your@email.com&quot;</code><br> <code>ssh-keygen -t rsa -C &quot;your@email.com&quot;</code></p></li><li><p>将SSH公钥复制到GITHUB里面去</p></li></ol><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><pre><code>cnpm install hexo -g</code></pre><p>1.将原来电脑的文件夹复制到新电脑,只需复制_config.yml，theme/，source/，scaffolds/，package.json，.gitignore<br>2.git bush 运行</p><pre><code>cnpm install</code></pre><p>3.插件</p><pre><code>cnpm install hexo-deployer-git --save //hexo d部署到git插件cnpm install hexo-generator-feed --save  //RSS订阅插件cnpm install hexo-generator-sitemap --save //站点地图插件</code></pre><h3 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h3><ol><li><p>hexo g hexo d试一下是否成功  </p><p> <code>hexo g</code><br> <code>hexo d</code></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搜了一圈，然后各种问题，最后回到原点，记录下，怕自己忘了&lt;/p&gt;
+&lt;h3 id=&quot;NPM太慢，换淘宝cnpm&quot;&gt;&lt;a href=&quot;#NPM太慢，换淘宝cnpm&quot; class=&quot;headerlink&quot; title=&quot;NPM太慢，换淘宝cnpm&quot;&gt;&lt;/a&gt;NPM太慢，换淘宝cnpm&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;npm install -g cnpm –registry=https://registry.npm.taobao.org
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装完成后用cnpm 代替 npm&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://alai.me/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="hexo" scheme="http://alai.me/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>

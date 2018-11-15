@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="一个苦学编程不得要领的办公室小文员"><title>UWP应用设置和文件设置：科普 | 独　</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">UWP应用设置和文件设置：科普</h1><a id="logo" href="/.">独　</a><p class="description">折腾致死——方休</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 主页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/history"><i class="fa fa-history"> 历史</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">UWP应用设置和文件设置：科普</h1><div class="post-meta">Mar 3, 2017<span> | </span><span class="category"><a href="/categories/UWP开发/">UWP开发</a></span></div><a class="disqus-comment-count" href="/2017/03/03/UWP-setmanager/#vcomment"><span class="valine-comment-count" data-xid="/2017/03/03/UWP-setmanager/"></span><span> 条评论</span></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#数据有两个基本的分类，应用数据和用户数据。"><span class="toc-number">1.</span> <span class="toc-text">数据有两个基本的分类，应用数据和用户数据。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置的基本操作"><span class="toc-number">2.</span> <span class="toc-text">设置的基本操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文件的基本操作"><span class="toc-number">3.</span> <span class="toc-text">文件的基本操作</span></a></li></ol></div></div><div class="post-content"><p><strong>转自<a href="http://www.cnblogs.com/ldzhangyx/p/6235436.html" target="_blank" rel="noopener">姜子瑜</a></strong>  </p>
+<h3 id="数据有两个基本的分类，应用数据和用户数据。"><a href="#数据有两个基本的分类，应用数据和用户数据。" class="headerlink" title="数据有两个基本的分类，应用数据和用户数据。"></a>数据有两个基本的分类，应用数据和用户数据。</h3><p><strong>用户数据</strong>为由用户拥有的数据，如文档，音乐或电子邮件等，下面将大致的介绍一下应用数据的基本操作。  </p>
+<p><strong>应用数据：</strong>应用数据包含APP的状态信息（如运行时状态，用户设置等），包括设置和文件，应用数据在应用程序安装时有自己的存储区域，而在卸载时会清空  </p>
+<p><strong>设置：</strong>存储用户首选项和应用程序状态,可存储多种数据类型 <a id="more"></a>  </p>
+<blockquote>
+<p>UInt8、Int16、UInt16、Int32、UInt32、Int64、UInt64、Single、Double<br>Boolean<br>Char16 和 String<br>DateTime 和 TimeSpan<br>GUID、Point、Size、Rect  </p>
+</blockquote>
+<p>ApplicationDataCompositeValue：一组必须按原子方式序列化和反序列化的相关应用设置。使用复合设置可轻松处理相互依赖的设置的原子更新。系统会在并发访问和漫游时确保复合设置的完整性。复合设置针对少量数据进行了优化，如果将它们用于大型数据集，性能可能很差。<br>文件：使用文件存储二进制文件，或自定义的序列化类型  </p>
+<p>上面提到过应用数据包括设置和文件  </p>
+<p>而应用数据根据存储的性质又分为三类：  </p>
+<p><strong>本地数据</strong><br><strong>漫游数据：</strong>用户可轻松地在多个设备之间保持应用的应用数据同步<br><strong>临时数据：</strong>临时应用数据存储类似于缓存<br>所以相应的就有本地设置和本地文件，漫游设置和漫游文件，临时设置和临时文件  </p>
+<p>不同类型的设置和文件的API如下：</p>
+<p>本地设置：ApplicationData.Current.LocalSettings<br>本地文件：ApplicationData.Current.LocalFolder<br>漫游设置：ApplicationData.Current.RoamingSettings<br>漫游文件：ApplicationData.Current.RoamingFolder<br>临时设置：ApplicationData.Current.TemporarySettings<br>临时文件：ApplicationData.Current.TemporaryFolder  </p>
+<h3 id="设置的基本操作"><a href="#设置的基本操作" class="headerlink" title="设置的基本操作"></a>设置的基本操作</h3><p>设置是一个ApplicationDataContainer类型的对象，关于ApplicationDataContainer类的介绍请参照官方文档 ，这里只是介绍一些简单的操作。</p>
+<p>   简单设置</p>
+<pre><code>ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;//获取本地设置，你也可以获取漫游设置和临时设置，后面的操作都一样
+    localSettings.Values[&quot;theme&quot;] = &quot;Light&quot;;//在本地设置中添加一个设置项，类似字典赋值方式，theme是localSettings里面的key，而&quot;Light&quot;是值，可以设置的类型在上面已经列出
+    localSettings.Values.Remove(&quot;theme&quot;);//删除设置项
+    string theme = localSettings.Values[&quot;theme&quot;] as string;//读取设置项
+
+    ApplicationDataCompositeValue simpleSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
+    simpleSettings[&quot;theme&quot;] = &quot;Light&quot;;
+    simpleSettings[&quot;FontFamily&quot;] = &quot;微软雅黑&quot;;
+    localSettings.Values[&quot;SimpleSettings&quot;] = simpleSettings;//将复合设置项添加到上面获取的本地设置中
+
+    ApplicationDataCompositeValue advanceSettings = new ApplicationDataCompositeValue();//创建简单设置的容器
+    advanceSettings[&quot;IsSync&quot;] = false;
+    localSettings.Values[&quot;AdvanceSettings&quot;] = advanceSettings;
+</code></pre><p>这样就可以实现设置项的复合操作，具体操作参照：<a href="https://msdn.microsoft.com/zh-cn/library/windows/apps/xaml/windows.storage.applicationdatacontainer.aspx" target="_blank" rel="noopener">MSDN</a></p>
+<h3 id="文件的基本操作"><a href="#文件的基本操作" class="headerlink" title="文件的基本操作"></a>文件的基本操作</h3><p>与文件操作相关的两个基本的类是StorageFile和StorageFolder</p>
+<pre><code>StorageFolder folder = ApplicationData.Current.LocalFolder;//获得本地文件夹
+    StorageFile file = await folder.CreateFileAsync(&quot;first.txt&quot;, CreationCollisionOption.OpenIfExists);//创建文件
+    await FileIO.WriteTextAsync(file, &quot;文本的内容&quot;);//使用FileIO将字符串写入文件
+
+    StorageFile fileOpen = folder.GetFileAsync(&quot;first.txt&quot;);
+    string content = await FileIO.ReadTextAsync(fileOpen);//读取文本    
+</code></pre><p>以上操作稍作修改就可应用于漫游数据和临时数据，漫游数据可以实现多设备间的数据同步，但是数据同步有一定的条件。临时数据类似于缓存，可用于保存一些缓存数据，如微博里的图片缓存等，系统维护时会自动删除，或者可以随时手动删除。</p>
+<p>除了对数据的操作之外，你也可以对数据进行版本控制：使用Application.Version属性和ApplicationData.SetVersionAsyncthe new text here</p>
+</div><div class="tags"><a href="/tags/设置/">设置</a><a href="/tags/文件设置/">文件设置</a></div><div class="post-nav"><a class="pre" href="/2018/01/19/nanian/">那年</a><a class="next" href="/2017/03/02/pangguan/">旁观自己</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'rL5v7SFTxl2cY08TPQ6R4MT8-gzGzoHsz',
+  appKey:'LjFQ97oqMHR3abIcA5iqpKuv',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"><input type="hidden" name="sitesearch" value="http://alai.me"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/UWP开发/">UWP开发</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/设置/" style="font-size: 15px;">设置</a> <a href="/tags/文件设置/" style="font-size: 15px;">文件设置</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/随笔/" style="font-size: 15px;">随笔</a> <a href="/tags/hexo/" style="font-size: 15px;">hexo</a> <a href="/tags/markdown/" style="font-size: 15px;">markdown</a> <a href="/tags/yelee/" style="font-size: 15px;">yelee</a> <a href="/tags/themes/" style="font-size: 15px;">themes</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/01/19/nanian/">那年</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/03/UWP-setmanager/">UWP应用设置和文件设置：科普</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/02/pangguan/">旁观自己</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/01/linshuo/">林说</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/25/yehui/">夜会</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/21/yuejianmeihao/">遇见美好</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/20/nuannuan/">暖暖</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/19/za-ji/">杂记</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/17/match/">火柴</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/16/chunshuichangliu/">春水长流，故人已逝</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://tumblr.com/" title="Tumblr" target="_blank">Tumblr</a><ul></ul><a href="http://github.com/" title="Github" target="_blank">Github</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">独　.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
